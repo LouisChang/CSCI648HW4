@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5B24094A1AA3CDBD005ED02C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B2409491AA3CDBD005ED02C /* main.c */; };
+		5B2409511AA3CE24005ED02C /* nrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B2409501AA3CE24005ED02C /* nrutil.c */; };
+		5B2409551AA3CECA005ED02C /* rngs.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B2409531AA3CECA005ED02C /* rngs.c */; };
+		5B2409581AA3CF89005ED02C /* rvgs.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B2409561AA3CF89005ED02C /* rvgs.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		5B2409461AA3CDBD005ED02C /* CSCI648HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSCI648HW4; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2409491AA3CDBD005ED02C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5B2409501AA3CE24005ED02C /* nrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nrutil.c; sourceTree = "<group>"; };
+		5B2409521AA3CE56005ED02C /* nrutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nrutil.h; sourceTree = "<group>"; };
+		5B2409531AA3CECA005ED02C /* rngs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rngs.c; sourceTree = "<group>"; };
+		5B2409541AA3CECA005ED02C /* rngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rngs.h; sourceTree = "<group>"; };
+		5B2409561AA3CF89005ED02C /* rvgs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rvgs.c; sourceTree = "<group>"; };
+		5B2409571AA3CF89005ED02C /* rvgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvgs.h; sourceTree = "<group>"; };
+		5B24095D1AA3D017005ED02C /* qatar.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qatar.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				5B2409491AA3CDBD005ED02C /* main.c */,
+				5B2409501AA3CE24005ED02C /* nrutil.c */,
+				5B2409521AA3CE56005ED02C /* nrutil.h */,
+				5B2409531AA3CECA005ED02C /* rngs.c */,
+				5B2409541AA3CECA005ED02C /* rngs.h */,
+				5B2409561AA3CF89005ED02C /* rvgs.c */,
+				5B2409571AA3CF89005ED02C /* rvgs.h */,
+				5B24095D1AA3D017005ED02C /* qatar.dat */,
 			);
 			path = CSCI648HW4;
 			sourceTree = "<group>";
@@ -119,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B24094A1AA3CDBD005ED02C /* main.c in Sources */,
+				5B2409581AA3CF89005ED02C /* rvgs.c in Sources */,
+				5B2409511AA3CE24005ED02C /* nrutil.c in Sources */,
+				5B2409551AA3CECA005ED02C /* rngs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
